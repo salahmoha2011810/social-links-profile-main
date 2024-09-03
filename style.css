@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .parent {
+    color: white;
+    background-color: rgb(56, 54, 54);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+  }
+  
+  .parent img {
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .parent div p {
+    color: yellowgreen;
+  }
+  
+  .parent div {
+    font-size: small;
+  }
+  
+  .childp {
+    font-size: medium;
+  }
+
+
+
+
+  ul{
+    list-style-type: none;
+    text-align: center;
+  }
